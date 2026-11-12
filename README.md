@@ -29,3 +29,7 @@ bash run.sh --date 20251219
 - `--metadata-only`: 메타데이터만 생성하고 종료
 - `--output output/my_result.json`: 최종 결과 파일명 지정
 - `--model`, `--openai-base-url`, `--openai-api-key`: LLM 설정 오버라이드
+
+## Private configuration
+
+See [SECURITY_SETUP.md](SECURITY_SETUP.md) before running. Private data and credentials must be supplied separately.

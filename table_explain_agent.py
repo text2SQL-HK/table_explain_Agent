@@ -85,7 +85,7 @@ def parse_args() -> Config:
     parser.add_argument("--output", default=None)
     parser.add_argument(
         "--oracle-client-lib-dir",
-        default=os.getenv("ORACLE_CLIENT_LIB_DIR", "/tmp/opt/oracle/instantclient_19_28"),
+        default=os.getenv("ORACLE_CLIENT_LIB_DIR", ""),
     )
     parser.add_argument("--sample-percent", type=int, default=1)
     parser.add_argument("--max-values-per-column", type=int, default=4)
